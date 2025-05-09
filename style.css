@@ -189,3 +189,16 @@
     border-radius: 50px 40px 0 0;
     transform: rotate(10deg);
 }
+
+.face, .nose, .eye, .eye1, .hair > div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.face:hover,
+.nose:hover,
+.eye:hover,
+.eye1:hover,
+.hair > div:hover {
+    transform: scale(1.05) rotate(4deg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
